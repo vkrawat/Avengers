@@ -1,0 +1,109 @@
+
+body{
+  margin: 0;
+padding: 0;
+font-family: Century Gothic;
+} 
+
+header{
+    background: black;
+    height: 100vh;
+    
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+ 
+}
+ul li{
+    display: inline-block;
+     margin-right: 30px;
+    margin-top: 30px;
+     text-align: center;
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    color: rgba(255,255,255,0.5);
+    padding-top: 2px;
+    transition: .5s ;
+
+
+    
+   
+}
+
+ul li a:hover{
+    color: rgba(255,255,255,0.75)
+}
+
+.active{
+    border-bottom: 2px solid #cd99d4;
+    color: white;
+    
+}
+
+
+.logo img{
+    float: left;
+    position: absolute;
+   width: 350px;
+   margin-left: 20px;
+    
+}
+
+
+
+.title{
+    
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    color: white;
+   
+}
+
+.title p{
+    color: white;
+    font-size: 20px;
+    font-weight: 30;
+}
+
+.image img{
+    
+    position: absolute;
+    margin-left: 360px;
+ margin-top: 256px;
+    width: 660px;
+ 
+ overflow: hidden;
+
+   
+}
+
+
+
+
+ul li ul li{
+    
+    display: none;
+
+
+}
+
+.a:hover {
+
+     border-bottom: 2px solid #cd99d4;
+    color: white;
+}
+
+ul li:hover ul li{
+    
+    display: block;
+
+    margin-top: 20px;
+}

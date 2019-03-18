@@ -1,0 +1,84 @@
+body{
+  margin: 0;
+padding: 0;
+font-family: Century Gothic;
+} 
+
+header{
+    background: black;
+    height: 100vh;
+    
+}
+.logo img{
+	position: absolute;
+	width: 500px;
+	margin-right: 200px;
+	
+}
+.image img{
+	
+	float:left;
+	margin-top: 136px;
+	width: 480px;
+	position: absolute;
+    overflow: hidden;
+
+
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+ 
+}
+ul li{
+    display: inline-block;
+     margin-right: 120px;
+    margin-top: 90px;
+     text-align: center;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    color: rgba(255,255,255,0.5);
+    padding-top: 5px;
+    transition: .5s ;
+    text-align: center;
+
+    
+   
+}
+
+ul li a:hover{
+    color: rgba(255,255,255,0.75)
+}
+
+
+ul li ul li{
+    
+    display: none;
+
+
+}
+
+ul li:hover ul li{
+    
+    display: block;
+    margin-top: 20px;
+}
+.title{
+    
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    
+
+    color: white;
+   
+}
+
+.title p{
+    color: white;
+    font-size: 20px;
+    font-weight: 30;
+}
